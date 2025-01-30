@@ -1,14 +1,26 @@
 // 1. Count Vowels and Consonants
-public class CountVowelConsonent {
+import java.util.Scanner;
+public class CountVowelConsonant {
     public static void main(String[] args) {
-        String str = "Hello World".toLowerCase();
-        int vowels = 0, consonants = 0;
-        for (char ch : str.toCharArray()) {
-            if (Character.isLetter(ch)) {
-                if ("aeiou".indexOf(ch) != -1) vowels++;
-                else consonants++;
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = scanner.nextLine();
+        scanner.close();
+        int vowelCount = 0;
+        int consonantCount = 0;
+
+        str = str.toLowerCase();
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            if (ch >= 'a' && ch <= 'z') {
+                if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                    vowelCount++;
+                } else {
+                    consonantCount++;
+                }
             }
         }
-        System.out.println("Vowels: " + vowels + ", Consonants: " + consonants);
+        System.out.println("Vowel count: " + vowelCount);
+        System.out.println("Consonant count: " + consonantCount);
     }
 }

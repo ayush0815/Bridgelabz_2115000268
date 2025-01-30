@@ -5,12 +5,11 @@ public class MostFrequentCharacter {
         System.out.print("Enter a string: ");
         String str = scanner.nextLine();
         scanner.close();
-
         int[] charCounts = new int[256]; // Assuming ASCII characters
-
         for (char c : str.toCharArray()) {
             charCounts[c]++;
         }
+
 
         char mostFrequentChar = ' ';
         int maxCount = 0;
@@ -20,6 +19,7 @@ public class MostFrequentCharacter {
                 mostFrequentChar = (char) i;
             }
         }
+
 
         System.out.println("Most Frequent Character: " + mostFrequentChar);
     }
