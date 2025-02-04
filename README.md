@@ -96,7 +96,7 @@ Completed Assisted Problems & Self Problems (Assignment-1)
    - **Level 1 Problems**: Solved introductory problems to apply control flow concepts.
 
 <details>
-<summary>Files</summary>
+<summary>Files Level 1</summary>
 - Bonus.java
 - DivisibleByFive.java
 - EveOdd.java
@@ -116,7 +116,8 @@ Completed Assisted Problems & Self Problems (Assignment-1)
 - SumUntilZeroOrNeg.java
 - VotingEligibilityCheck.java
 </details>
-
+<details>
+<summary>Files Level 2</summary>
    - **Level 2 Problems**: Tackled intermediate-level problems.
      - BMI.java
      - Factors.java
@@ -130,7 +131,9 @@ Completed Assisted Problems & Self Problems (Assignment-1)
      - PrimeNum.java
      - ResultCalculator.java
      - ThreeFriends.java
-
+</details>
+<details>
+<summary>Files Level 3</summary>
    - **Level 3 Problems**: Challenged with advanced problem-solving tasks.
      - AbundantNumber.java
      - ArmstrongNumber.java
@@ -138,6 +141,7 @@ Completed Assisted Problems & Self Problems (Assignment-1)
      - DayOfWeek.java
      - HarshadNumber.java
      - SimpleCalculator.java
+</details>
 
 ## Task 6: DATE: 24-01-2025
 - **Java Arrays**
@@ -148,7 +152,7 @@ Completed Assisted Problems & Self Problems (Assignment-1)
   - **Level 1 Problems**: Solved problems to reinforce understanding of array concepts.
 
 <details>
-<summary>Files</summary>
+<summary>Files Level 1</summary>
 - Array2DTo1D.java
 - Factors.java
 - FizzBuzz.java
@@ -160,7 +164,8 @@ Completed Assisted Problems & Self Problems (Assignment-1)
 - Table.java
 - VotingEligibility.java
 </details>
-
+<details>
+<summary>Files Level 2</summary>
    - **Level 2 Problems**: Engaged in more complex problem-solving exercises involving arrays.
      - BMI.java
      - BMI2D.java
@@ -172,6 +177,7 @@ Completed Assisted Problems & Self Problems (Assignment-1)
      - Result2D.java
      - ReverseNumber.java
      - ThreeFriends.java
+</details>
 
 ## Task 7: DATE: 27-01-2025
 1. **User-Defined Methods in Java**
@@ -182,6 +188,52 @@ Completed Assisted Problems & Self Problems (Assignment-1)
    - Recursion Basics: Studying the concept of recursion and how to implement recursive methods.
 3. **Practice**
    - Problem Solving: Practiced problems to apply concepts of user-defined and recursive methods.
+<details>
+<summary>Files Level 1</summary>
+AthleteRun.java
+ChocolateDivision.java
+HandshakeCalc.java
+HandshakeCalculator.java
+NaturalNumberSum.java
+NumberCheck.java
+QuotientAndRemainder.java
+SI.java
+SmallestAndLargest.java
+SpringSeason.java
+TrigonometricFunctions.java
+WindChillCalculator.java
+</details>
+<details>
+<summary>Files Level 2</summary>
+BMICalculator.java
+Factors.java
+LeapYearChecker.java
+NumberAnalyzer.java
+Quadratic.java
+RandomValues.java
+StudentVoteChecker.java
+SumOfNaturalNumbers.java
+UnitConverte.java
+UnitConverter.java
+UnitConvertert.java
+YoungestAndTallest.java
+</details>
+<details>
+<summary>Files Level 3</summary>
+CollinearPoints.java
+FootballTeam.java
+MatrixOperations.java
+NumberChecker.java
+NumberCheckerFour.java
+NumberCheckerOne.java
+NumberCheckerThree.java
+NumberCheckerTwo.java
+OTPGEN.java
+PointDistanceAndLine.java
+StudentScorecard.java
+calendar.java
+zara.java
+</details>
 
 ## Task 8: DATE: 28-01-2025
 1. **Static Methods in Java**
@@ -189,14 +241,46 @@ Completed Assisted Problems & Self Problems (Assignment-1)
    - Java Standard Library Methods: Exploring commonly used methods from the Java Standard Library.
    - Math Class: Learning about the methods available in the Math class for mathematical operations.
    - Random Class: For Generating Random Numbers.
-2. **Practice**
-   - **Level 1 Problems**: Solved introductory problems to apply static method concepts.
 
 ## Task 9: DATE: 29-01-2025
 - **String Handling in Java**
   - String Methods: Studied various methods available for string manipulation in Java.
   - String Handling Concepts: Explored fundamental concepts related to handling strings effectively.
   - String Problems: Solved problem statements focused on applying string methods and handling techniques.
+<details>
+<summary>Files Built-in Function level 1</summary>
+BasicCalculator.java
+FactorialRecursive.java 
+FibonacciSequence.java 
+GCDandLCM.java 
+MaximumOfThree.java 
+NumberGuess.java
+PalindromeChecker.java 
+PrimeNumCheck.java 
+TemperatureConverter.java 
+</details>
+<details>
+<summary>Files Built-in Function level 2</summary>
+DateArithimatic.java
+DateComparison.java
+DateFormatting.java
+TimeZone.java
+</details>
+<details>
+<summary> Files String</summary>
+AnagramCheck.java
+CompareString.java
+CountVowelConsonant.java
+LongestWord.java
+MostFrequentCharacter.java
+PalindromeString.java
+RemoveCharacter.java
+RemoveDuplicateString.java
+ReplaceWord.java
+ReverseString.java
+SubStringOccurrences.java
+ToggleCase.java
+</details>
 
 ## Task 10: DATE: 30-01-2025
 - **Built-in String Methods and Exception Handling**
@@ -214,3 +298,25 @@ Completed Assisted Problems & Self Problems (Assignment-1)
    - Java Object: Learned about creating and using objects in Java.
 3. **Practice**
    - **Level 1 Problems**: Practiced problems focusing on the application of OOP concepts, specifically classes and objects.
+<details>
+<summary> File OOPS 30/01 </summary>
+Book.java
+Circle.java
+Employee.java
+</details>
+<details>
+<summary> File OOPS 31/01 </summary>
+BankAccount.java
+Book.java
+Book1.java
+Book2.java
+CarRental.java
+Circle.java
+Course.java
+Employee.java
+HotelBooking.java
+Person.java
+Product.java
+Students.java
+Vehicle.java
+</details>
