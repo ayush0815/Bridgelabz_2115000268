@@ -1,0 +1,44 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class Product {
+   static double discount = 10.0;
+   private final int productID;
+   private String productName;
+   private double price;
+   private int quantity;
+
+   Product(int var1, String var2, double var3, int var5) {
+      this.productID = var1;
+      this.productName = var2;
+      this.price = var3;
+      this.quantity = var5;
+   }
+
+   static void updateDiscount(double var0) {
+      discount = var0;
+   }
+
+   void display() {
+      System.out.println("\nProduct ID: " + this.productID);
+      System.out.println("Product Name: " + this.productName);
+      System.out.println("Price: $" + this.price);
+      System.out.println("Quantity: " + this.quantity);
+      System.out.println("Discount: " + discount + "%");
+   }
+
+   public static void main(String[] var0) {
+      Product var1 = new Product(2115, "Headphones", 1500.0, 4);
+      Product var2 = new Product(1002, "Type c charger", 800.0, 5);
+      if (var1 instanceof Product) {
+         System.out.println("\nproduct1 is an instance of Product class");
+         var1.display();
+      }
+
+      if (var2 instanceof Product) {
+         System.out.println("\nproduct2 is an instance of Product class");
+         var2.display();
+      }
+
+      updateDiscount(15.0);
+      System.out.println("\nUpdated Discount for all products: " + discount + "%");
+   }
+}

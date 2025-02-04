@@ -1,0 +1,45 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class Patient {
+   static String hospitalName = "AIIMS Raebareli";
+   static int totalPatients = 0;
+   private final int patientID;
+   private String name;
+   private int age;
+   private String ailment;
+
+   Patient(int var1, String var2, int var3, String var4) {
+      this.patientID = var1;
+      this.name = var2;
+      this.age = var3;
+      this.ailment = var4;
+      ++totalPatients;
+   }
+
+   static int getTotalPatients() {
+      return totalPatients;
+   }
+
+   void display() {
+      System.out.println("\nPatient ID: " + this.patientID);
+      System.out.println("Name: " + this.name);
+      System.out.println("Age: " + this.age);
+      System.out.println("Ailment: " + this.ailment);
+      System.out.println("Hospital: " + hospitalName);
+   }
+
+   public static void main(String[] var0) {
+      Patient var1 = new Patient(101, "ABC", 50, "Diabates");
+      Patient var2 = new Patient(102, "XYZ", 45, "Kidney Stone");
+      if (var1 instanceof Patient) {
+         System.out.println("\npatient1 is an instance of Patient class");
+         var1.display();
+      }
+
+      if (var2 instanceof Patient) {
+         System.out.println("\npatient2 is an instance of Patient class");
+         var2.display();
+      }
+
+      System.out.println("\nTotal Patients Admitted: " + getTotalPatients());
+   }
+}

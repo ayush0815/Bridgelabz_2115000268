@@ -1,0 +1,42 @@
+// Source code is decompiled from a .class file using FernFlower decompiler.
+class Student {
+   static String universityName = "GLA University";
+   static int totalStudents = 0;
+   private final int rollNumber;
+   private String name;
+   private String grade;
+
+   Student(int var1, String var2, String var3) {
+      this.rollNumber = var1;
+      this.name = var2;
+      this.grade = var3;
+      ++totalStudents;
+   }
+
+   static void displayTotalStudents() {
+      System.out.println("Total students enrolled: " + totalStudents);
+   }
+
+   void display() {
+      System.out.println("\nRoll Number: " + this.rollNumber);
+      System.out.println("Name: " + this.name);
+      System.out.println("Grade: " + this.grade);
+      System.out.println("University: " + universityName);
+   }
+
+   public static void main(String[] var0) {
+      Student var1 = new Student(268, "Ayush Srivastava", "A");
+      Student var2 = new Student(63, "Vaibhav Singh", "A+");
+      if (var1 instanceof Student) {
+         System.out.println("\nstudent1 is an instance of Student class");
+         var1.display();
+      }
+
+      if (var2 instanceof Student) {
+         System.out.println("\nstudent2 is an instance of Student class");
+         var2.display();
+      }
+
+      displayTotalStudents();
+   }
+}
