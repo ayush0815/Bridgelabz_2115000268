@@ -1,10 +1,10 @@
-class Book {
+class Book2 {
     private String title;
     private String author;
     private double price;
     private boolean isAvailable;
 
-    public Book(String title, String author, double price) {
+    public Book2(String title, String author, double price) {
         this.title = title;
         this.author = author;
         this.price = price;
@@ -33,8 +33,8 @@ class Book {
     }
 
     public static void main(String[] args) {
-        Book book1 = new Book("The Alchemist", "Paulo Coelho", 12.99);
-        Book book2 = new Book("1984", "George Orwell", 10.50);
+        Book2 book1 = new Book2("The Alchemist", "Paulo Coelho", 12.99);
+        Book2 book2 = new Book2("1984", "George Orwell", 10.50);
         book1.displayBook();
         book2.displayBook();
 
