@@ -340,4 +340,26 @@ Vehicle.java
  Vehicle.java
  </details>
 
+ ## Task 13: DATE: 05-02-2025
+ 1. **Classes vs. Objects in Java**
+ - **Classes**: Studied the concept of classes in Java, including their structure and purpose.
+ - **Objects**: Learned about objects in Java, including their creation and usage.
+ 2. **Class Diagram, Object Diagrams, Sequence Diagrams**
+ - **Class Diagram**: Created class diagrams to visualize the structure of classes.
+ - **Object Diagram**: Created object diagrams to represent the state of objects.
+ - **Sequence Diagram**: Created sequence diagrams to illustrate the interaction between objects.
+ 3. **Practice**
+ - **Problems**: Engaged in problem-solving exercises focusing on the application of classes and objects.
+ <details>
+ <summary> File</summary>
+BankDemo.java  
+CompanyDemo.java  
+LibraryDemo.java  
+EcommerceDemo.java  
+HospitalDemo.java  
+SchoolDemo.java  
+UniversityDemo.java  
+UniversityManagementDemo.java  
+</details>
+
  
