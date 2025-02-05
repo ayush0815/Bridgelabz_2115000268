@@ -320,3 +320,24 @@ Product.java
 Students.java
 Vehicle.java
 </details>
+
+## Task 12: DATE: 04-02-2025
+ 1. **this, static, final key words and instanceof operator Content**
+ - **this keyword**: Learned about the use of the `this` keyword in Java, including its uses.
+ - **static keyword**: Studied the `static` keyword in Java, including its applications.
+ - **final keyword**: Gained an understanding of the `final` keyword in Java, including its application.
+ - **instanceof operator**: Learned about the `instanceof` operator in Java, including its use.
+ 2. **Practice**
+ - **Problems**: Engaged in problem-solving exercises focusing on the application of the keywords.
+ <details>
+ <summary> File</summary>
+ BankAccount.java
+ Book.java
+ Employee.java
+ Patient.java
+ Product.java
+ Student.java
+ Vehicle.java
+ </details>
+
+ 
