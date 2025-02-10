@@ -360,6 +360,58 @@ HospitalDemo.java
 SchoolDemo.java  
 UniversityDemo.java  
 UniversityManagementDemo.java  
+UML.pdf
 </details>
+
+## Task 14: DATE: 07-02-2025
+**Inheritance**
+- **Single Inheritance**
+- **Multiple Inheritance** 
+- **Hierarchical Inheritance** 
+- **Key Features of Inheritance** 
+- **Method Overriding** 
+- **Constructor Inheritance in Java** 
+- **Polymorphism and Inheritance** 
+- **Access Modifiers and Inheritance** 
+ - **Practice**
+ - **Problems**: Engaged in problem-solving exercises focusing on the application of inheritance.
+ <details>
+ <summary> File</summary>
+ AnimalHierarchy.java  
+BankSystem.java  
+CourseHierarchy.java  
+EmployeeManagement.java  
+LibraryManagement.java  
+OrderManagement.java  
+RestaurantManagement.java  
+SchoolSystem.java  
+SmartHome.java  
+TransportSystem.java  
+VehicleManagement.java  
+tempCodeRunnerFile.java  
+</details>
+
+## Task 15: DATE: 10-02-2025
+**Encapsulation, Polymorphism, Interface and Abstract Class**
+- **Encapsulation**: Learned about encapsulation in Java, including its application.
+- **Polymorphism**: Learned about polymorphism in Java, including its application.
+- **Interface**: Learned about interface in Java, including its application.
+- **Abstract Class**: Learned about abstract class in Java, including its application.
+- **Practice**
+- **Problems**: Engaged in problem-solving exercises focusing on the application of encapsulation, polymorphism, interface and abstract classes.
+<details>
+<summary> File</summary>
+BankingSystem.java  
+ECommercePlatform.java  
+EmployeeManagementSystem.java  
+HospitalManagementSystem.java  
+LibraryManagementSystem.java  
+OnlineFoodDelivery.java  
+RideHailingApp.java  
+VehicleRentalSystem.java  
+</details>
+
+
+
 
  
