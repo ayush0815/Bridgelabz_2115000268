@@ -15,7 +15,7 @@ class Policy {
     }
 }
 
-public class InsurancePolicyManagement {
+public class InsurancePolicyManagementTwo {
     private Map<String, Policy> policyMap = new HashMap<>();
     private Map<String, Policy> insertionOrderPolicies = new LinkedHashMap<>();
     private TreeMap<Date, String> expirySortedPolicies = new TreeMap<>();
@@ -58,7 +58,7 @@ public class InsurancePolicyManagement {
     }
 
     public static void main(String[] args) {
-        InsurancePolicyManagement system = new InsurancePolicyManagement();
+        InsurancePolicyManagementTwo system = new InsurancePolicyManagementTwo();
         system.addPolicy("P1", "ABC", new Date(2025 - 1900, 3, 15)); 
         system.addPolicy("P2", "XYZ", new Date(2024 - 1900, 2, 20)); 
 
